@@ -178,6 +178,11 @@ button {
     display: none;
 }
 
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
 
 @media (min-width: 768px){
     header, .reload {display: none;}
@@ -196,4 +201,6 @@ button {
         border: 1px solid #E2E4E5;
     }
     .fields {flex-direction: row;}
+    .title, .title p, .title h1, main, .Space, .fields {text-align: left; align-items: start;}
+    .title {padding: 0;}
 }
